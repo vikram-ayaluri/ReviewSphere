@@ -1,0 +1,37 @@
+# Global ignores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore environment and build artifacts
+.env
+.env.local
+.env.production
+
+# Frontend (React)
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.nuxt/
+frontend/.parcel-cache/
+frontend/yarn.lock
+frontend/package-lock.json
+frontend/coverage/
+
+# Backend (Spring Boot)
+backend/target/
+backend/*.log
+backend/*.jar
+backend/*.war
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/dependency-reduced-pom.xml
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Ignore OS/system files
+*.swp
+*.swo
